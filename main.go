@@ -11,7 +11,7 @@ func sayHello(w http.ResponseWriter, r *http.Request) {
 }
 
 // the most simple server.
-var addr = ":80"
+var addr = ":8080"
 
 func main() {
 	http.HandleFunc("/", sayHello)
