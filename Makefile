@@ -21,7 +21,7 @@ get:
 	go get -v github.com/korbenzhang/demogo
 
 run2:
-	docker run --rm golang sh -c "go get github.com/korbenzhang/demogo/... && exec demogo"
+	docker run --rm -p 8080:8080 golang sh -c "go get github.com/korbenzhang/demogo/... && exec demogo"
 
 test:
 	curl http://localhost:8080
