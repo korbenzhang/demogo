@@ -1,0 +1,14 @@
+
+version: '2'
+
+networks:
+  basic:
+
+services:
+  world:
+    #container_name: world
+    image: demogo
+    ports:
+      - "80:80"
+    networks:
+      - basic
