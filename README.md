@@ -1,5 +1,6 @@
 
-[![Build Status](https://travis-ci.com/golangci/golangci-web.svg?branch=master)](https://travis-ci.com/korbenzhang/demogo)
+[![Build Status](https://travis-ci.com/korbenzhang/demogo.svg?branch=master)](https://travis-ci.com/korbenzhang/demogo)
+
 [![GolangCI](https://golangci.com/badges/github.com/korbenzhang/demogo.svg)](https://golangci.com)
 
 
